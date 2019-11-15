@@ -21,7 +21,7 @@ public class CopyCatController {
 
 	@Autowired
 	private RestTemplate rt;
-	 final String baseurl = "http://localhost:8080/claims" ;
+	final String baseurl = "http://localhost:8080/claims" ;
 	
  
 	  @GetMapping("/copycat/claims") 
